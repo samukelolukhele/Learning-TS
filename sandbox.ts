@@ -1,33 +1,40 @@
+let character: string;
+let age: number;
+let isLoggedIn: boolean;
 
-let names = ['luigi', 'mario', 'yoshi'];
+// age = 'luigi';
+age = 30;
 
-names.push('toad');
+// isLoggedIn =  25;
+isLoggedIn = true;
 
-let numbers = [10, 20, 30, 40];
+let ninjas: string[] = [];
 
-numbers.push(25);
-// numbers.push('sean');
-// numbers[1] = false
+// ninjas = [20, 12];
+ninjas = ['Yoshi', 'Mario'];
 
-let mixed = ['ken', 4, 'chun-li', 8, 9, true];
+let mixed: (string|number|boolean)[] = []
+mixed.push('hello');
+mixed.push(20);
+mixed.push(false);
 
-mixed.push('ryu');
-mixed.push(10);
-mixed[0] = 3;
+console.log(mixed);
 
-let ninja = {
- name: 'mario',
- belt: 'black',
- age: 30
+let uid: string|number;
+
+uid = '123';
+uid = 123;
+
+let ninjaOne: object;
+
+ninjaOne = { name: 'yodhi', age: 30}
+// ninjaOne = 'Kell'
+
+let ninjatTwo: {
+  name: string,
+  age: number,
+  beltColour: string
 }
 
-ninja.age = 40;
-ninja.name = 'ryu';
-// ninja.age = '45'
-// ninja.skills = ['fighting', 'sneaking'];
+ninjatTwo = { name: 'mario', age: 20, beltColour: 'black' }
 
-ninja = {
-  age: 30,
-  name: 'yoshi',
-  belt: 'orange'
-}
